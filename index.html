@@ -71,11 +71,6 @@
           <li>
             <a href="#blog" class="navbar-link" data-nav-link>Project</a>
           </li>
-
-          <li>
-            <a href="#" class="btn btn-primary">Download CV</a>
-          </li>
-
         </ul>
       </nav>
 
@@ -179,10 +174,16 @@
           <p class="section-text">
             Disini saya akan menampilkan sertifikasi - sertifikasi dari sololearn Introductions HTML , Introductions CSS , Introductions JavaScript dan Intermediated JavaScript.
           </p>
-
+          <div class="filter-buttons">
+            <button data-category="all" class="filter-btn">All</button>
+            <button data-category="sertifikathtml" class="filter-btn">Sertifikat HTML</button>
+            <button data-category="sertifikatcss" class="filter-btn">Sertifikat CSS</button>
+            <button data-category="sertifikatjs" class="filter-btn">Sertifikat JavaScript</button>
+            <button data-category="project" class="filter-btn">Project</button>
+          </div>
           <ul class="portfolio-list">
 
-            <li>
+            <li data-category="sertifikathtml">
               <a href="https://api2.sololearn.com/v2/certificates/CC-QYDNTZE8/image/png?t=638653382937467820" class="portfolio-card" style="background-image: url('./assets/images/portfolio-1.jpg')">
                 <div class="card-content">
 
@@ -198,7 +199,7 @@
               </a>
             </li>
 
-            <li>
+            <li data-category="sertifikatcss">
               <a href="https://api2.sololearn.com/v2/certificates/CC-1DZVFNWZ/image/png?t=638653010310270970" class="portfolio-card" style="background-image: url('./assets/images/portfolio-2.jpg')">
                 <div class=".card-content">
 
@@ -214,7 +215,7 @@
               </a>
             </li>
 
-            <li>
+            <li data-category="sertifikatjs">
               <a href="https://api2.sololearn.com/v2/certificates/CC-4I4MMBRZ/image/png?t=638653041042457190" class="portfolio-card" style="background-image: url('./assets/images/portfolio-3.jpg')">
                 <div class="card-content">
 
@@ -230,7 +231,7 @@
               </a>
             </li>
 
-            <li>
+            <li data-category="sertifikatjs">
               <a href="https://api2.sololearn.com/v2/certificates/CC-3NA8WPLH/image/png?t=638653349405566140" class="portfolio-card" style="background-image: url('./assets/images/portfolio-4.jpg')">
                 <div class=".card-content">
 
