@@ -356,25 +356,7 @@ body {
   gap: 10px;
 }
 
-.filter-buttons {
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: center /* Atur tombol ke kanan */
-}
 
-.filter-btn {
-  margin: 0 10px;
-  padding: 10px 20px;
-  cursor: pointer;
-  background-color: #007BFF;
-  color: white;
-  border: none;
-  border-radius: 5px;
-}
-
-.filter-btn:hover {
-  background-color: #0056b3;
-}
 
 
 
@@ -637,7 +619,38 @@ textarea.contact-input {
 
 .blog-card .card-title a { transition: var(--transition-2); }
 
-.blog-card .card-title a:is(:hover, :focus) { color: var(--orange-soda); }
+.blog-card .card-title a:is(:hover, :focus) { color:blue; }
+
+.filter-buttons {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.filter-btn {
+  margin: 0 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.filter-btn:hover {
+  background-color: #0056b3;
+}
+.map-container {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
 
 
 
